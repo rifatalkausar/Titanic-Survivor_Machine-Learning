@@ -5,7 +5,7 @@ import pandas as pd
 
 st.set_page_config(
     page_title="Titanic Survivor Prediction",
-    page_icon=":rocket"
+    page_icon=":ship"
 )
 
 st.title('Titanic Survivor Prediction Model Deployment')
