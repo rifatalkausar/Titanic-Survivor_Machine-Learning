@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon=":rocket"
 )
 
-st.title('Titanic Survivior Prediction Model Deployment')
+st.title('Titanic Survivor Prediction Model Deployment')
 
 if 'model' not in st.session_state:
     model = pickle.load(open('model.sav', 'rb'))
